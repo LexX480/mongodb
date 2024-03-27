@@ -7,20 +7,13 @@ const app = express();
 const port = 5000;
 
 
-mongoose.connect('mongodb+srv://teams700:moles900@cluster0.no9horl.mongodb.net/Shops').then((res) => {
+mongoose.connect('mongodb+srv://LExx:ayush900@cluster0.h6wdp.mongodb.net/Shops').then((res) => {
   app.listen(5000, () => {
     console.log('app listening server err');
   })
 }).catch((err) => {
   console.log(`${err}`);
 });
-
-
-// axios.get('http://www.themealdb.comjiosandlsanjdklnasdndom.php').then((result) => {
-//   console.log(result);
-// }).catch((err) => {
-//   console.log(err);
-// });
 
 
 
