@@ -2,7 +2,7 @@ const express = require('express');
 const productRoutes = require('./routes/productRoutes');
 const userRoutes = require('./routes/userRoutes');
 const mongoose = require('mongoose');
-const { default: axios } = require('axios');
+
 const app = express();
 const port = 5000;
 
