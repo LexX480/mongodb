@@ -8,14 +8,6 @@ const cors = require('cors');
 const fileUpload = require('express-fileupload');
 
 
-// let r = 90;
-
-// const person = {
-//   name: 'per'
-// };
-// person.name = r || person.name;
-// console.log(person);
-
 
 
 app.use(cors());
@@ -28,12 +20,6 @@ mongoose.connect('mongodb+srv://teams700:moles900@cluster0.no9horl.mongodb.net/S
   console.log(`${err}`);
 });
 
-
-// axios.get('http://www.themealdb.comjiosandlsanjdklnasdndom.php').then((result) => {
-//   console.log(result);
-// }).catch((err) => {
-//   console.log(err);
-// });
 
 
 
