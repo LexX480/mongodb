@@ -12,7 +12,7 @@ const fileUpload = require('express-fileupload');
 
 app.use(cors());
 
-mongoose.connect('mongodb+srv://LExx:ayush900@cluster0.h6wdp.mongodb.net/').then((res) => {
+mongoose.connect('mongodb+srv://LExx:ayush900@cluster0.h6wdp.mongodb.net/Shops').then((res) => {
   app.listen(port, () => {
     console.log('app listening server err');
   })
