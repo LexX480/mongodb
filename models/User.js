@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const userSchhema = new mongoose.Schema({
+const userSchhema = mongoose.Schema({
   fullname: {
     type: String,
     required: true,
@@ -17,6 +17,7 @@ const userSchhema = new mongoose.Schema({
     type: Boolean,
     default: false
   },
+
   shippingAddress: {
     address: { type: String, default: '' },
     city: { type: String, default: '' },
